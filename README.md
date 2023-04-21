@@ -1,5 +1,15 @@
-# [SpineCSS](#)
+![Logo](/images/logo.svg)
+# ![SpineCSS](/images/title.svg)
 SpineCSS is a simple, responsive boilerplate to kickstart any responsive project.
+
+## Warning: Work in Progress!
+
+SpineCSS is a passion project that we've been working on for some time, and we're excited to share it with the world. However, we want to be clear that this is a long-term project and a work in progress. While the framework is stable and usable, there may be bugs, inconsistencies, or missing features that we haven't yet discovered.
+
+That being said, we encourage you to dive into SpineCSS and explore its many features and capabilities. Use it to spin out your own design system and create beautiful, responsive websites and applications. But please be aware that this is a living, evolving project, and changes may be made to the framework over time.
+
+In short, use SpineCSS at your own risk, but don't let that stop you from exploring its many possibilities. We're committed to making this framework the best it can be, and we're excited to see what you can create with it!
+
 
 
 ## Getting started
@@ -12,52 +22,33 @@ Clone the repo: `git clone https://github.com/musagenius345/SpineCSS.git` (Note:
 The download includes Skeleton's CSS, [Andy Bell's Modern CSS Reset](https://github.com/Andy-set-studio/modern-css-reset) as a reset, a sample favicon, and an index.html as a starting point.
 
 ```
-Skeleton/
+SpineCSS/
 ├── index.html
 ├── css/
 │   ├── reset.css
-│   └── skeleton.css
+│   └── spine.css
 └── images/
-    └── favicon.ico
+    └── logo.svg
+    └── title.svg
 
 ```
 
-### Why it's awesome
-
-Skeleton is lightweight and simple. It styles only raw HTML elements (with a few exceptions) and provides a responsive grid. Nothing more.
-- Around 400 lines of CSS unminified and with comments
-- It's a starting point, not a UI framework
-- No compiling or installing...just vanilla CSS
-
-
-## Browser support
-
-- Chrome latest
-- Firefox latest
-- Opera latest
-- Safari latest
-- IE latest
-
-The above list is non-exhaustive. Skeleton works perfectly with almost all older versions of the browsers above, though IE certainly has large degradation prior to IE9.
+## Future Features
+ 
+- Spinal flexibility: SpineCSS is designed to be flexible and adaptable to your needs, whether you're building a simple website or a complex web application.
+- Fluid layouts: Create responsive layouts adapting to any screen size or device.
+- Normalize your design: With SpineCSS, you can ensure that your design is normalized across different browsers and devices, avoiding any unexpected twists or kinks.
+- Dark and light modes: Switch between dark and light modes with ease.
+- Beginner-friendly: SpineCSS is easy to learn and use, with clear and concise documentation that guides you through the process of creating your own design system.
 
 
 ## License
 
-All parts of Skeleton are free to use and abuse under the [open-source MIT license](https://github.com/dhg/Skeleton/blob/master/LICENSE.md).
+SpineCSS is released under the [MIT License](LICENSE.md). You are free to use, modify, and distribute the framework as you see fit, like a whirlpool spinning and swirling through the water.
+
+Have an extension you want to see here? Just shoot an email to musabadru@gmail.com with your extension!
 
 
-## Future Extensions
-- SASS extension
-- LESS exension
+## Credits
 
-
-Have an extension you want to see here? Just shoot an email to hi@getskeleton.com with your extension!
-
-
-## Colophon
-
-
-
-
-## Acknowledgement
-SpineCSS is a fork of [Skeleton](https://github.com/dhg/Skeleton) by Dave Gamache for a better web.
+SpineCSS was built on top of the popular [Skeleton CSS framework](https://github.com/dhg/skeleton.git), and we would like to thank Dave Gamache for his work on Skeleton. We would also like to acknowledge Andy Bell's Modern CSS Reset, which provided inspiration for our normalization approach.
