@@ -19,17 +19,24 @@ Clone the repo: `git clone https://github.com/musagenius345/SpineCSS.git` (Note:
 
 ### What's in the download?
 
-The download includes Skeleton's CSS, [Andy Bell's Modern CSS Reset](https://github.com/Andy-set-studio/modern-css-reset) as a reset, a sample favicon, and an index.html as a starting point.
+The download includes Skeleton's CSS, [Andy Bell's Modern CSS Reset](https://github.com/Andy-set-studio/modern-css-reset) as a reset, sass folder for customization, a sample logo and an index.html as a starting point.
 
 ```
 SpineCSS/
 ├── index.html
 ├── css/
-│   ├── reset.css
+│   ├── spine.min.css
 │   └── spine.css
 └── images/
-    └── logo.svg
-    └── title.svg
+│   ├── logo.svg
+│   ├── title.svg
+└── scss/
+    ├── global
+    ├── components
+    ├── util
+    ├── layout
+    ├── main.scss
+    
 
 ```
 
@@ -46,7 +53,7 @@ SpineCSS/
 
 SpineCSS is released under the [MIT License](LICENSE.md). You are free to use, modify, and distribute the framework as you see fit, like a whirlpool spinning and swirling through the water.
 
-Have an extension you want to see here? Just shoot an email to musabadru@gmail.com with your extension!
+Have an extension you want to see here? Just shoot an email to [here](musabadru@gmail.com) with your extension!
 
 
 ## Credits
