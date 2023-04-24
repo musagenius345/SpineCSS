@@ -4,19 +4,28 @@
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
-html is set to 62.5% so that all the REM measurements throughout Skeleton
+html is set to 62.5% so that all the REM measurements throughout SpineCSS
 are based on 10px sizing. So basically 1.6rem = 16px :) */
 
 
 html {
   font-size: 62.5%;
+  cursor: default; //standard arrow-shaped cursor
 }
 
 body {
   font-size: 1.6rem;
   /* ensures that the default font size for the content is 16 pixels, which is a common and readable size for body text.*/
-  line-height: 1.5;
+  line-height: var(--line-height-body);
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Outfit", "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
+}
+h1, h2, h3, h4{
+  font-family: "Varela Round";
+  font-weight: 300;
+}
+h5, h6{
+  font-family: "Varela Round";
+  font-weight: 200;
 }

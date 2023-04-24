@@ -5,18 +5,18 @@
   "main": "spine.css",
   "scripts": {
     "dev": "sass scss/main.scss css/spine.css -w --no-source-map",
-    "build":"postcss css/spine.css -o css/spine.min.css"
+    "build": "postcss css/spine.css -o css/spine.min.css"
   },
   "devDependencies": {
-    "sass": "^1.61.0",
-    "postcss":"^8.4.21",
-    "cssnano":"6.0.0"
+    "cssnano": "6.0.0",
+    "postcss": "^8.4.21",
+    "postcss-preset-env": "^8.3.2",
+    "sass": "^1.61.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/musagenius345/SpineCSS.git"
   },
-  
   "author": "",
   "license": "MIT",
   "bugs": {

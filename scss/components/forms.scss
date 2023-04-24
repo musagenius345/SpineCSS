@@ -1,6 +1,7 @@
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -47,7 +48,8 @@ select:focus {
 label,
 legend {
   display: block;
-  margin-bottom: .5rem;
+  /* margin-bottom: .5rem; */
+  margin-block-end: .5rem;
   font-weight: 600; }
 fieldset {
   padding: 0;
@@ -57,5 +59,65 @@ input[type="radio"] {
   display: inline; }
 label > .label-body {
   display: inline-block;
-  margin-left: .5rem;
+  /* margin-left: .5rem; */
+  margin-inline-start: .5rem;
   font-weight: normal; }
+
+
+/* - individual styling */
+textarea {}
+input[type="text"] {}
+input[type="password"] {}
+input[type="email"] {}
+input[type="tel"] {}
+input[type="number"] {}
+input[type="search"] {}
+input[type="url"] {}
+input[type="date"] {}
+input[type="datetime-local"] {}
+input[type="month"] {}
+input[type="week"] {}
+input[type="time"] {}
+/* Tick boxes */
+input[type="checkbox"], input[type="radio"] {}
+input[type="checkbox"]:checked, input[type="radio"]:checked {}
+input[type="checkbox"] {}
+input[type="checkbox"]:checked {}
+input[type="radio"] {}
+input[type="radio"]:checked {}
+/* Other input fields, some with limited styling capabilities */
+input[type="file"] {}
+input[type="color"] {}
+input[type="range"] {}
+
+select {}
+optgroup {}
+option {}
+option:checked {}
+datalist {}
+
+
+
+/* This matches forms or form elements that are invalid *and* have been
+interacted with. Note that:
+1) You may need to add the `interacted` class to forms yourself
+2) You may need to add the `touched` class to form fields yourself
+3) `:user-invalid` is a working draft and not yet supported by most browsers
+4) `:-moz-ui-invalid` is non-standard and only works in Firefox
+Form validation error messages will appear (in capable browsers) regardless of
+this styling. You can omit 1) and 2) and still have working forms. Perfect
+example of progressive enhancement. */
+/* Applies to invalid forms */
+form.interacted:invalid {}
+/* Applies to invalid form fields. You would need to repeat your declarations
+for the following three groups of selectors individually. Browsers completely
+ignore any rule that contains a selector they do not know. */
+form.interacted :invalid, form .touched:invalid {}
+:user-invalid {}
+:-moz-ui-invalid {}
+
+output {}
+
+progress {}
+meter {}
+

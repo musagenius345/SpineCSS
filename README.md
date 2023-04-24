@@ -59,3 +59,5 @@ Have an extension you want to see here? Just shoot an email to [here](musabadru@
 ## Credits
 
 SpineCSS was built on top of the popular [Skeleton CSS framework](https://github.com/dhg/skeleton.git), and we would like to thank Dave Gamache for his work on Skeleton. We would also like to acknowledge Andy Bell's Modern CSS Reset, which provided inspiration for our normalization approach.
+
+[natural selection](https://github.com/frontaid/natural-selection/blob/main/boilerplate.css)

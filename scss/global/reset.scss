@@ -7,6 +7,10 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  
+  background-repeat: no-repeat; // all background images are displayed only once.
 }
 
 /* Remove default margin */
@@ -38,7 +42,7 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: var(--line-height-body);
 }
 
 /* A elements that don't have a class get default styles */
@@ -59,6 +63,11 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+//SVGs fallback to the current text color
+svg:not([fill]) {
+  fill: currentColor;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */

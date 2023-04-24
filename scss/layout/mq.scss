@@ -7,6 +7,22 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
+/* @media (prefers-reduced-motion: reduce) {
+} done in reset */
+
+@media (prefers-color-scheme: dark) {
+}
+
+@media (orientation: portrait) {
+}
+
+@media (orientation: landscape) {
+}
+
+@media print {
+}
+
+
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
