@@ -7,43 +7,77 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
-  margin-bottom: 2rem;
+  margin-block: 0 2rem;
   font-weight: 300;
 }
 
 h1 {
-  font-size: 4.0rem;
+  font-size: var(--step-7);
   line-height: calc(var(--line-height-body -3));
   letter-spacing: -.1rem;
 }
 
 h2 {
-  font-size: 3.6rem;
+  font-size: var(--step-6);
   line-height: calc(var(--line-height-body - 0.25));
   letter-spacing: -.1rem;
 }
 
 h3 {
-  font-size: 3.0rem;
+  font-size: var(--step-5);
   line-height: calc(var(--line-height-body - 0.2));
   letter-spacing: -.1rem;
 }
 
 h4 {
-  font-size: 2.4rem;
+  font-size: var(--step-4);
   line-height: calc(var(--line-height-body - 0.15));
   letter-spacing: -.08rem;
+  color: #D7CBCB;
 }
 
 h5 {
-  font-size: 1.8rem;
+  font-size: var(--step-4);
   line-height: var(--line-height-body);
   letter-spacing: -.05rem;
 }
 
 h6 {
-  font-size: 1.5rem;
+  font-size: var(--step-3);
   line-height: calc(var(--line-height-body + 0.1));
   letter-spacing: 0;
 }
+
+a, li{
+  font-size: var(--step-2);
+}
+p, span, div, section, article, aside, main, header{
+  font-size: var(--step-2);
+}
+
+small{
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+[placeholder]{
+  font: inherit;
+  
+}
+
+
+

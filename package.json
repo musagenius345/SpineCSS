@@ -5,7 +5,7 @@
   "main": "spine.css",
   "scripts": {
     "dev": "sass scss/main.scss css/spine.css -w --no-source-map",
-    "build": "postcss css/spine.css -o css/spine.min.css"
+    "build": "postcss css/spine.css -o css/spine.min.css -w"
   },
   "devDependencies": {
     "cssnano": "6.0.0",

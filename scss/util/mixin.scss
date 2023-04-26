@@ -1,0 +1,29 @@
+@mixin includeLight(){
+
+  --base-text-color: rgb(0,0,0);
+
+  --background-color: #eeeeee;
+  --background-card-color: #ffffff;
+  --background-success-color: #85DA85;
+  --background-toggle-inactive-color: rgba(var(--base-text-color), 0);
+  --background-toggle-active-color: rgba(var(--base-text-color), 0.08);
+  --foreground-color: rgba(var(--base-text-color), 0.87);
+  --foreground-success-color: #42445A;
+  --foreground-secondary-color: rgba(var(--base-text-color), 0.56);
+  --focus-color: rgba(var(--base-text-color), 0.5);
+}
+
+
+@mixin includeDark(){
+
+  --base-text-color: rgb(255,255,255);
+  --background-color: #212121;
+  --background-card-color: #363636;
+  --background-success-color: #008000;
+  --background-toggle-inactive-color: rgba(var(--base-text-color), 0);
+  --background-toggle-active-color: rgba(var(--base-text-color), 0.1);
+  --foreground-color: rgba(var(--base-text-color), 0.87);
+  --foreground-success-color: #ffffff;
+  --foreground-secondary-color: rgba(var(--base-text-color), 0.56);
+  --focus-color: rgba(var(--base-text-color), 0.5);
+}

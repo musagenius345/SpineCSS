@@ -2,17 +2,17 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 a {
-  color: #1EAEDB;
+  color: var(--primary-color);
 }
 
-a:hover {
+a:any-link {
   color: #0FA0CE;
 }
 
-a {}
+/* a {}
 
 a:visited {}
 
-a:hover {}
+a:hover {} */
 
 a:active {}

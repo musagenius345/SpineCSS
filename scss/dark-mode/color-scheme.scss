@@ -1,0 +1,11 @@
+@use '../util' as *;
+
+@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+  html { @include includeLight }
+  html.dark { @include includeDark }
+}
+
+@media (prefers-color-scheme: dark) {
+  html { @include includeDark }
+  html.light { @include includeLight }
+}

@@ -5,12 +5,50 @@
 * http://www.opensource.org/licenses/mit-license.php
 */
 
-:root{
-  /* some code */
+
+
+:root {
+  /* font-size*/
+
+  --step--2: clamp(0.64rem, calc(0.52rem + 0.58vw), 0.96rem);
+  --step--1: clamp(0.80rem, calc(0.65rem + 0.73vw), 1.20rem);
+  --step-0: clamp(1.00rem, calc(0.82rem + 0.91vw), 1.50rem);
+  --step-1: clamp(1.25rem, calc(1.02rem + 1.14vw), 1.88rem);
+  --step-2: clamp(1.56rem, calc(1.28rem + 1.42vw), 2.34rem);
+  --step-3: clamp(1.95rem, calc(1.60rem + 1.78vw), 2.93rem);
+  --step-4: clamp(2.44rem, calc(2.00rem + 2.22vw), 3.66rem);
+  --step-5: clamp(3.05rem, calc(2.50rem + 2.77vw), 4.58rem);
+  --step-6: clamp(3.82rem, calc(3.12rem + 3.47vw), 5.72rem);
+  --step-7: clamp(4.77rem, calc(3.90rem + 4.34vw), 7.15rem);
+  --step-8: clamp(5.96rem, calc(4.88rem + 5.42vw), 8.94rem);
+  --step-9: clamp(7.45rem, calc(6.10rem + 6.77vw), 11.18rem);
+  --step-10: clamp(9.31rem, calc(7.62rem + 8.47vw), 13.97rem);
+  
+  --base-text-color: #222;
+
+/* button & input colors */
+  --button-bg: #33c3f0;
+  --button-text-color: #fff;
+  --button-border: #bbb;
+  --button-primary-border: var(--button-bg);
+  --button-border-focus:#888;
+  --button-text-focus:#333;
+  
+  --input-accent-color: var(--button-bg);
+  --input-button-focus: #1EAEDB;
+  --input-txt-color: #555;
   
   
+  --select-bg: var(--button-text-color, #858698);
+  --select-focus-border-color: var(--button-bg);
+  --select-txtarea-border: #d1d1d1;
   
   
+  --code-bg: #f1f1f1;
+  --code-table-border: #e1e1e1;
   
+  
+  --link-hov-color: #0fa0ce;
+
   --line-height-body: 1.5;
 }
